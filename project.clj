@@ -4,7 +4,7 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [crate "0.2.5"]
                  [fetch "0.2.0" :exclusions [org.clojure/clojure noir]]
-                 [org.clojure/clojurescript "0.0-2138"
+                 [org.clojure/clojurescript "0.0-2156"
                   :exclusions [org.apache.ant/ant]]
                  ]
   :jvm-opts ["-Xmx1g" "-XX:+UseConcMarkSweepGC"] ; cljsbuild eats memory
